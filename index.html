@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BE Data – Director Readout Summary</title>
+  <style>
+    body {
+      font-family: Calibri, Arial, sans-serif;
+      font-size: 11pt;
+      margin: 30px;
+      color: #000;
+    }
+
+    h2 {
+      font-size: 13pt;
+      margin: 30px 0 6px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-bottom: 32px;
+      font-size: 10pt;
+    }
+
+    th {
+      background-color: #6FA8DC;
+      font-weight: bold;
+      padding: 6px 10px;
+      text-align: center;
+      border: 1px solid #BFBFBF;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 5px 10px;
+      text-align: center;
+      border: 1px solid #BFBFBF;
+      background-color: #FFFFFF;
+    }
+
+    td.label {
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    tr.grand-total td {
+      background-color: #6FA8DC;
+      font-weight: bold;
+    }
+
+    caption {
+      text-align: left;
+      font-weight: bold;
+      font-size: 11pt;
+      padding: 4px 0;
+      caption-side: top;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>BE Data – Summary by Project Type</h2>
+
+  <!-- Table 1: By Project Type -->
+  <table>
+    <thead>
+      <tr>
+        <th>Project Type</th>
+        <th>Project Count</th>
+        <th>RTO Fiber (A)</th>
+        <th>Transport Awarded (A)</th>
+        <th>Service Order Requested (A)</th>
+        <th>Cable Placed (A)</th>
+        <th>Construction Awarded (A)</th>
+        <th>Building Permit Applied (A)</th>
+        <th>Building Permit Approved (A)</th>
+        <th>External NTP (A)</th>
+        <th>Ready to Construct (RTC) Milestone (A)</th>
+        <th>Construction Started (A)</th>
+        <th>Telco Ready (A)</th>
+        <th>Transport Completed (A)</th>
+        <th>Physical Construction Completed (A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">Capacity</td>
+        <td>95</td>
+        <td>95</td>
+        <td>94</td>
+        <td>92</td>
+        <td>74</td>
+        <td>93</td>
+        <td>92</td>
+        <td>85</td>
+        <td>82</td>
+        <td>77</td>
+        <td>68</td>
+        <td>54</td>
+        <td>39</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td class="label">Capacity Root</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">Roaming</td>
+        <td>23</td>
+        <td>23</td>
+        <td>23</td>
+        <td>23</td>
+        <td>17</td>
+        <td>21</td>
+        <td>22</td>
+        <td>22</td>
+        <td>20</td>
+        <td>20</td>
+        <td>15</td>
+        <td>5</td>
+        <td>0</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="label">SGFI</td>
+        <td>95</td>
+        <td>95</td>
+        <td>93</td>
+        <td>92</td>
+        <td>68</td>
+        <td>88</td>
+        <td>88</td>
+        <td>84</td>
+        <td>73</td>
+        <td>71</td>
+        <td>62</td>
+        <td>43</td>
+        <td>24</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td class="label">SGFI Root</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr class="grand-total">
+        <td class="label">Grand Total</td>
+        <td>216</td>
+        <td>216</td>
+        <td>213</td>
+        <td>210</td>
+        <td>162</td>
+        <td>205</td>
+        <td>205</td>
+        <td>194</td>
+        <td>178</td>
+        <td>171</td>
+        <td>148</td>
+        <td>103</td>
+        <td>64</td>
+        <td>80</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!-- Table 2: Roaming Only -->
+  <table>
+    <thead>
+      <tr>
+        <th>Project Type</th>
+        <th>Project Count</th>
+        <th>RTO Fiber (A)</th>
+        <th>Transport Awarded (A)</th>
+        <th>Service Order Requested (A)</th>
+        <th>Cable Placed (A)</th>
+        <th>Construction Awarded (A)</th>
+        <th>Building Permit Applied (A)</th>
+        <th>Building Permit Approved (A)</th>
+        <th>External NTP (A)</th>
+        <th>Ready to Construct (RTC) Milestone (A)</th>
+        <th>Construction Started (A)</th>
+        <th>Telco Ready (A)</th>
+        <th>Transport Completed (A)</th>
+        <th>Physical Construction Completed (A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">Roaming</td>
+        <td>23</td>
+        <td>23</td>
+        <td>23</td>
+        <td>23</td>
+        <td>17</td>
+        <td>21</td>
+        <td>22</td>
+        <td>22</td>
+        <td>20</td>
+        <td>20</td>
+        <td>15</td>
+        <td>5</td>
+        <td>0</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>BE Data – BPY 2026</h2>
+
+  <!-- Table 3: BPY 2026 -->
+  <table>
+    <thead>
+      <tr>
+        <th>BPY 2026</th>
+        <th>Project Count</th>
+        <th>Transport Bid Initiated (A)</th>
+        <th>RTO Fiber (A)</th>
+        <th>Transport Awarded (A)</th>
+        <th>Equip RTO (A)</th>
+        <th>Service Order Requested (A)</th>
+        <th>Transport Site Walk (A)</th>
+        <th>Fiber Scope of Work Received (A)</th>
+        <th>Ready to Construct (RTC) Milestone (A)</th>
+        <th>Cable Placed (A)</th>
+        <th>Pending Cable Placed / S&amp;T (F)</th>
+        <th>Transport Completed (A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">2026</td>
+        <td>216</td>
+        <td>216</td>
+        <td>216</td>
+        <td>213</td>
+        <td>216</td>
+        <td>210</td>
+        <td>202</td>
+        <td>182</td>
+        <td>171</td>
+        <td>162</td>
+        <td>20</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>BE Data – All BPYs</h2>
+
+  <!-- Table 4: All BPYs -->
+  <table>
+    <thead>
+      <tr>
+        <th>All BPYs</th>
+        <th>Project Count</th>
+        <th>Transport Bid Initiated (A)</th>
+        <th>RTO Fiber (A)</th>
+        <th>Transport Awarded (A)</th>
+        <th>Equip RTO (A)</th>
+        <th>Service Order Requested (A)</th>
+        <th>Transport Site Walk (A)</th>
+        <th>Fiber Scope of Work Received (A)</th>
+        <th>Ready to Construct (RTC) Milestone (A)</th>
+        <th>Cable Placed (A)</th>
+        <th>Transport Completed (A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">All Projects</td>
+        <td>216</td>
+        <td>216</td>
+        <td>216</td>
+        <td>213</td>
+        <td>216</td>
+        <td>210</td>
+        <td>202</td>
+        <td>182</td>
+        <td>171</td>
+        <td>162</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
